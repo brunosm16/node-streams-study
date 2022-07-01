@@ -6,10 +6,8 @@
 
 1. write-read-streams
 	- Write data in a text file and to read data from a text file.
-2. write-read-large-file
-	- Read a large size file using Node JS `streams`.
-3. iterate-streams
+2. iterate-streams
 	- Iterate over Node JS `streams`.
-4. readable-streams
+3. readable-streams
 	- Create a readable stream using `Readable` from `require("streams")`
 
