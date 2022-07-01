@@ -7,10 +7,10 @@ const write = async (directory) => {
 };
 
 const read = async (directory) => {
-  const file = fs.createReadStream(directory);
+  const rs = fs.createReadStream(directory);
 
-  file.on("data", (data) => console.log(data.toString()));
-  file.on("end", () => console.log("Thats all. No more data for you."));
+  rs.on("data", (data) => console.log(data.toString()));
+  rs.on("end", () => console.log("Thats all. No more data for you."));
 };
 
 export { read, write };
