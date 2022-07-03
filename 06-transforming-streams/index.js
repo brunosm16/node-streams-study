@@ -8,11 +8,8 @@ const sampleTextUpperCase = fs.createWriteStream(
 );
 
 const uppercase = new Transform({
-  transform(chunk, undefined, callback) {
-    callback(
-      null,
-      chunk.toString().toUpperCase()
-    );
+  transform(chunk, encoding, callback) {
+    callback(null, chunk.toString().toUpperCase());
   },
 });
 
