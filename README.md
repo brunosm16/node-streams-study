@@ -5,9 +5,18 @@
 ## 🏗️ Implementations 
 
 1. write-read-streams
-	- Write data in a text file and to read data from a text file.
+	- Writes data in a text file and to read data from a text file.
 2. iterate-streams
-	- Iterate over Node JS `streams`.
+	- Iterates over Node JS `streams`.
 3. readable-streams
-	- Create a readable stream using `Readable` from `require("streams")`
-
+	- Creates a readable stream using `Readable` from `require("streams")`
+4. paused-streams
+    - Creates a paused stream.
+5. piping-streams
+    - Use a pipe to read a file and outputs the data of that file. 
+7. transform-streams
+    - Uses `transform` to convert data inside a text-file to Uppercase.
+    - Uses `Transform` class to transform streams using ES6
+    - Create streams in object mode 
+8. pipeline-streams
+    - Uses `pipeline` to pipe streams
